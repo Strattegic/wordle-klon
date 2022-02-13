@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(18, 18, 19);
+    color: white;
+    margin: 0 auto;
+    width: 80%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.game {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.game .correct {
+    background-color: yellowgreen;
+}
+
+.game .included {
+    background-color: orange;
+}
+
+.game .incorrect {
+    background-color: grey;
+}
+
+#gameOver {
+    margin-top: 10%;
+}
+
+.container,
+#keyboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#keyboard {
+    margin-top: 20%;
+}
+
+#keyboard button {
+    min-width: 40px;
+    height: 50px;
+    margin: 3px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    background-color: grey;
+}
+
+.row {
+    display: flex;
+}
+
+.row div {
+    font-weight: bold;
+    border: 1px solid grey;
+    width: 50px;
+    height: 50px;
+    line-height: 3rem;
+    margin: 3px;
+}
